@@ -1,12 +1,12 @@
 import * as React from 'react';
 import './App.css';
-import { PeriodButtons } from 'components/PeriodButtons/PeriodButtons';
+import { ChartPage } from 'src/components/specific/chart-page/chart-page';
 
 class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <PeriodButtons/>
+        <ChartPage width={800} height={600}/>
       </div>
     );
   }
