@@ -22,4 +22,4 @@ yarn-error.log*
 
 # *** own rules ***
 src/**/*.css
-.idea
+.idea/**

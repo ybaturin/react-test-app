@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <ChartPage width={800} height={600}/>
+        <ChartPage width={800} height={400}/>
       </div>
     );
   }
